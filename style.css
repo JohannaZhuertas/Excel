@@ -12,532 +12,446 @@
  familias de letras 
  h1 / font-family: Georgia 
  nav /  font-family:'Arial Narrow Bold', sans-serif;
- section font-family:Arial, Helvetica, sans-serif;
-font-size: 18px; secciones grandes
+ 
+ section/ font-family:Arial, Helvetica, sans-serif;
+                    :Verdana, Geneva, Tahoma, sans-serif
+ font-size:/18px; secciones grandes
  */
 
-/* bara de navegacion*/
-
-
-
-.navegacion {
-    display: flex;
+.navbar {
     background-color: #138539;
-    justify-content: space-around;
-    width: auto;
-    height: auto;
-    border-bottom: 2px solid black;
-    top: 100px;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
-.navegacion img {
-    padding-top: 1rem;
-    height: 50px;
-    width: 50px;
 
-
-}
-
-li a {
-    color: #D2E9E9;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+.nav-item a {
+    padding-top: 5px;
     text-transform: capitalize;
-}
+    color: rgb(44, 43, 43);
 
-
-.navegacion nav ul li {
-    display: inline-block;
-    padding: 0 100px;
-    margin: 1rem;
 
 }
-
-/* titulos*/
 
 h1 {
     color: #408768;
     font-size: 3rem;
     padding-top: 2rem;
-    padding-left: 1rem;
     text-transform: capitalize;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 h2 {
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
     text-transform: capitalize;
-    padding-top: 2rem;
-    padding-left: 1rem;
+}
+
+.eslogan h1 {
+    display: flex;
+    justify-content: start;
 
 }
 
-.logo {
-    width: 40%;
-    height: auto;
-    float: left;
-    padding-right: 2rem;
+.aside {
 
+    border: 1px solid rgb(209, 206, 206);
+    overflow: hidden;
 }
 
-.logo img {
-    width: 500px;
-    height: 300px;
-    position: relative;
-    left: 50%;
+.secPrincipal {
+    background-color: rgb(185, 214, 196);
 }
 
-
-.eslogan {
-    padding-top: 4rem;
-    width: 60%;
-    height: auto;
-    float: left;
-}
-
-/* contenido principal*/
-
-.SectionPrincipal {
-    width: 68%;
-    height: 700px;
-    font-size: 18px;
-    background-color: #D2E9E9;
-    padding: 4rem 10px 4rem 1rem;
-    float: left;
-    margin-right: 2%;
+.redeSociales,
+.contacto,
+.paginaVentas,
+.subc {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-align: start;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.SectionPrincipal p {
-    margin: 10px;
-    padding: 15px;
-    margin: 5px;
-}
-
-/*contenido extra */
-
-.contenidoExtra {
-    width: 30%;
-    height: 700px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: #138539;
     padding-top: 1rem;
     padding-bottom: 2rem;
-    padding-left: 1rem;
-    float: left;
-    overflow: auto;
-    border: 1px solid black;
-    margin-bottom: 1rem;
+    font-size: 25px;
+
 
 }
 
-/*pie de pagina*/
 
-.piePagina {
-
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    justify-content: space-between;
-    background-color: #138539;
+.redeSociales {
+    display: flex;
+    align-items: start;
     padding-left: 1rem;
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-    padding-top: 20px;
-    padding-right: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h4 {
+    color: rgb(77, 62, 62);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
     text-transform: capitalize;
-    gap: 2rem;
-    line-height: 2rem;
-    border-top: 2px solid black;
+
+
 }
 
-.redeSociales a {
+h3 {
+    font-size: 1rem;
+    display: flex;
+    align-items: start;
+    text-transform: capitalize;
+}
 
+a {
     text-decoration: none;
-    color: #D2E9E9;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(44, 43, 43);
+    font-size: 14px;
+
 }
 
-.contacto a {
+.boton {
+    background-color: #4CAF50;
+    border-radius: 24px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    color: #D2E9E9;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
+.boton:hover {
+    background-color: #df1e17;
 }
 
 
-.paginaVentas a {
-    text-decoration: none;
-    color: #D2E9E9;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Arial Narrow Bold', sans-serif;
+/*pagina blog///////////////////////*/
 
+
+.logoCursos img {
+    width: 300px;
 }
 
-.subc {
-    color: #D2E9E9;
-    font-family: 'Arial Narrow Bold', sans-serif;
-}
-
-.sub p {
-    color: #D2E9E9;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Arial Narrow Bold', sans-serif;
-}
-
-
-/*pagina de blog */
-
-.navegacionblog {
-    background-color: #138539;
-    width: auto;
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
-    height: auto;
-    top: 100px;
-    display: block;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 2rem;
-    color: #D2E9E9;
-}
-
-.navegacionblog img {
-    padding-top: 10px;
-    height: 50px;
-    width: auto;
-}
-
-.banner img {
-    width: 40%;
-    height: auto;
+.esloganCursos h1 h2 {
+    padding: 0%;
 
 }
 
 .banner {
     background-color: #138539;
-    border-radius: 3rem;
-    height: auto;
 
+}
 
+.banner img {
+    width: 300px;
 }
 
 .indiceDepreguntas {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    width: auto;
-    margin: 2rem 4rem 2rem 2rem;
-    font-size: 24px;
-    width: 100%;
-    height: 200px;
-    margin-top: 4rem;
-    margin-left: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.respuestasBlog h3 {
+.img-excel {
+    width: 200px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+
+.h3Blog h3 {
     font-size: 18px;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.res1 p {
-    margin: 3rem 3rem 3rem 3rem;
+
+.res1,
+.res2,
+.res3,
+.res4 {
+
     font-size: 18px;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-family: sans-serif;
+    color: rgb(87, 85, 85);
 
 }
 
-.res1 img {
-    position: relative;
-    left: 30%;
 
-
-}
-
-.res4 img {
-    margin-bottom: 4rem;
-}
-
-
-/*pagina de cursos*/
-
-.CompuCursos img {
-    width: 600px;
-    height: 300px;
-    position: relative;
-    left: 10%;
-}
-
-
-.esloganCursos {
-    position: relative;
-    left: 10%;
-}
-
-.contendidoCursos {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
-    ;
-    margin: 2rem 2rem 2rem 6rem;
-    padding-top: 6rem;
-}
-
-.contendidoCursos h3 {
-    text-transform: capitalize;
-    margin: 2rem 2rem 2rem 2rem;
+.subc input {
+    width: 200px;
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 
 }
 
-h4 {
+.subc a {
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+}
+
+/*pagina Cursos//////////////////////*/
+
+.imgCursos {
+    margin-top: 5rem;
+}
+
+.hCursos {
     font-size: 30px;
-    text-transform: capitalize;
-    margin: 2rem 2rem 2rem 2rem;
+    font-weight: 400;
 
 }
 
-.cursoExcel {
-    position: relative;
-    left: 70%
+.imgCursos img {
+    width: 80%;
+    height: 80%;
 }
 
 
-/*estudia con nosotros*/
-
-.bannerAprende img {
-    width: auto;
-    height: 500;
-    padding-bottom: 24px;
+.colorContenidocursos {
+    background-color: rgb(185, 214, 196);
+    padding: 2rem;
 }
 
-.bannerAprende h2 {
+
+
+/* Boton de venta*/
+.botVenta {
+    margin: 50px auto;
+    max-width: 600px;
+    background-color: none;
+
+}
+
+.botonVenta a {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonVenta {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5rem;
+    cursor: pointer;
+    padding: 1rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5rem;
+    background-color: #C53A3A;
+    border: 2px solid #5f1a1a;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+/*pagina Aprender /////////////////////////*/
+
+.logoAprender img {
+    width: 350px;
+
+}
+
+.logoAprender {
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.esloganAprender {
+    padding-top: -2rem;
+
+}
+
+.h2aprende {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
-    padding-left: 3rem;
-    padding-top: 20px;
-
-}
-
-
-.aprende-seccion1 {
-    background-color: #D2E9E9;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    height: 200px;
-    letter-spacing: 1px;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 1rem;
-    font-size: 24px;
-}
-
-.aprende-seccion1 h2 {
-
-    padding-bottom: 1rem;
-    font-family: Georgia;
-
-}
-
-.contenidoSecundario {
-    background-color: #D2E9E9;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 24px;
-
-    letter-spacing: 1px;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 1rem;
-    font-size: 24px;
-    padding-bottom: 4rem;
-}
-
-
-
-
-.formularioContato {
-    margin: 3rem 3rem 6em 3rem;
-    font-size: 24px;
-
-}
-
-
-fieldset {
-    border: 2px solid #ccc;
-}
-
-legend {
-    font-weight: bold;
-    font-size: 24px;
-
-}
-
-label {
     font-weight: bold;
 
 }
 
+.colorpagAprende {
+    background-color: rgb(185, 214, 196);
+    ;
+}
+
+.contenidoAprender {
+    padding: 2rem;
+
+}
+
+.formAprende {
+    margin-top: 6rem;
+}
+
+/*formulario*/
+.form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.labelForm {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
 textarea {
     width: 100%;
-    padding: 12px 20px 12px 20px;
-    margin: 8px 0;
-    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/*pagina de venta////////////////////////////*/
+.parte1 {
+    background-color: rgb(185, 214, 196);
+    margin-bottom: 2rem;
+}
+
+.parte2 {
+    background-color: rgb(185, 214, 196);
+}
+
+.imgVenta{
 
 }
 
-/*pagina de ventas*/
+.imgVenta img {
+    width: 50%;
+    padding-top: 8rem;
 
-.paginaVentas {
-
-    background-color: #138539;
 }
 
+.imgcarousel {
+    width: 500px;
+    height: 500px;
 
-.imagenExcel img {
-    width: 700px;
-    height: 400px;
 }
-
-.primera-partepagventas {
-    font-size: 18px;
-    font-family: 'Arial Narrow Bold', sans-serif;
+.imgcarousel img {
+    width: 350px;
+    height: 350px;
  
 }
+.argumentos{
+    background-color: rgb(185, 214, 196) ;
+   margin-top: 1rem;
+margin-bottom:1rem ;}
 
-.secundaria-partepagventas {
-    font-size: 18px;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    margin: 4rem 4rem 4rem 4rem;
+
+/*responsive*/
+@media screen and (max-width:324px) {
+
+    .redeSociales,
+    .contacto,
+    .paginaVentas,
+    .subc,
+    .novedades {
+        border-bottom: 0.5px solid rgb(99, 96, 96);
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        display: flex;
+        align-items: center;
+
+
+    }
+}
+
+
+@media screen and (min-width:300px) {
+    .banner img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .img-excel {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:300px) {
+
+    .esloganCursos,
+    .logoCursos {
+        text-align: center;
+
+
+    }
 
 }
 
-.testimonio {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
-row-gap: 1rem;
-column-gap:1rem;
+@media screen and (max-width:320px) {
+    .imgCursos {
+        display: none;
+
+    }
 
 }
 
+@media screen and (max-width:320px) {
+    .formA {
+        width: 300px;
+    }
 
-.testimonios1 img {
-    width: 350px;
-    height: 250px;
-
+    .forMedia {
+        margin-top: 1rem;
+    }
 }
 
-.testimonios2 img {
-    width: 350px;
-    height: 250px;
+@media screen and (max-width:320px) {
+    .imgVenta img {
+        display: none;
+    }
+
     
+    .imgVenta {
+        padding: 20px
+    }
+
+    .imgcarousel img {
+        width: 300px;
+        height: 300px;
+    }
 }
-
-
-.testimonios3 img {
-    width: 350px;
-    height: 250px;
-  
-}
-
-.argumentoFinal {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
-    margin: 4rem 4rem 4rem 4rem;
-}
-
-.botonDecompra {
-margin: 8rem 8rem 8rem 8rem;
+ 
+@media screen and ( min-width:500px){
+.mc{
+width: 100%;
 
 }
-
-
-.botonDecompra a{
-    display: block;
-    font-size: 40px;
-    text-transform: capitalize;
-    text-decoration: none;
-    background-color: red;
-    border-radius: 3rem;
-    width: 500px;
-    color: #D2E9E9;
-
-}
-
-.piedePaginaventas {
-display: grid;
-grid-template-rows: 1fr;
-grid-template-columns:1fr;
-row-gap: 5rem;
-font-family: Arial, Helvetica, sans-serif;
-font-size:20px;
-background-color:#138539;
-color: black;
-text-transform: capitalize;
-justify-content:center;
-padding-top: 4rem;
-align-items: center;
-
-}
-.piedePaginaventas p {
-align-items: center;
-
-}
-
-
-.redeSocialesVenta a{
-margin: 10px 10px 10px 10px;
-
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content:center;
-padding-bottom:10px;
-color: #D2E9E9;
-text-decoration: none;
-
-}
-
-.contactoVenta a{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    margin: 10px 10px 10px 10px;
-    padding-bottom:10px;
-    color: #D2E9E9;
-    text-decoration: none;
-
-}
-
-
-.carritoDecompra a{
-margin: 10px 10px 10px 10px;
- display: flex;
- flex-direction: row;
- justify-content:center;
- align-items: center;
- padding-bottom:10px;
- color: #D2E9E9;
- text-decoration: none;
-}
-
-.redeSociales p .paginaVentasp .contactoVenta p {
-display:block;
-align-content: center;
-}
-
-
-
-
-   
+ }
