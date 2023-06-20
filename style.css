@@ -374,7 +374,7 @@ margin-bottom:1rem ;}
 
 
 /*responsive*/
-@media screen and (max-width:375px) {
+@media screen and (min-width:508px) {
 
     .redeSociales,
     .contacto,
@@ -392,19 +392,19 @@ margin-bottom:1rem ;}
 }
 
 
-@media screen and (min-width:375px) {
+@media screen and (min-width:508px) {
     .banner img {
         width: 300px;
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:508px) {
     .img-excel {
         width: 400px;
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:508px) {
 
     .esloganCursos,
     .logoCursos {
@@ -415,7 +415,7 @@ margin-bottom:1rem ;}
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:508px) {
     .imgCursos {
         display: none;
 
@@ -423,9 +423,9 @@ margin-bottom:1rem ;}
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:508px) {
     .formA {
-        width: 300px;
+        width:200px;
     }
 
     .forMedia {
@@ -433,7 +433,7 @@ margin-bottom:1rem ;}
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:508px) {
     .imgVenta img {
         display: none;
     }
@@ -449,9 +449,8 @@ margin-bottom:1rem ;}
     }
 }
  
-@media screen and ( min-width:500px){
+@media screen and ( min-width:508px){
 .mc{
 width: 100%;
-
 }
  }
