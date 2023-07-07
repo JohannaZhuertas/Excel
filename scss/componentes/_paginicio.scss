@@ -1,0 +1,25 @@
+.sec-principal{
+ @include parrafos;
+ margin: 2rem;
+ background-color:$seccion-color;
+    P{
+font-family:$ft-family;
+
+
+}
+}
+
+.botonVenta {
+    display: inline-block;
+    padding: 3px;
+    background-color: #f70000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+ 
+  
+  .botonVenta:hover {
+    background-color: #ff0404;
+  }
+   }

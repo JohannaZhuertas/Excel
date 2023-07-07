@@ -1,0 +1,47 @@
+.redeSociales,
+.contacto,
+.paginaVentas,
+.subc {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-align: start;
+    font-family: sans-serif;
+    background-color: nth($colores, 1);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+}
+
+h4 {
+    font-size:18px;
+}
+.subc form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form button{
+    margin:5px;
+    
+    button:hover{
+    background-color: #df1e17;
+    cursor: pointer;   
+}
+}
+
+
+input[type="text"][placeholder] {
+    text-align: center;
+ 
+
+}
+@media screen and (max-width:375px) {
+    .redeSociales,
+    .contacto,
+    .paginaVentas{
+align-items: center; 
+}
+
+}

@@ -1,0 +1,12 @@
+@mixin centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin parrafos {
+  text-align: start;
+  font-size: 18px;
+  padding: 2px;
+}

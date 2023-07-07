@@ -1,0 +1,38 @@
+.esloganA {
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+
+
+    h1 {
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: rgb(34, 65, 46);
+        text-align: center;
+
+
+        h2 {
+            font-size: 2rem;
+            color: #382525;
+            text-align: center;
+        }
+    }
+
+}
+
+.logoAprender {
+    img {
+        width: 30%;
+    }
+}
+
+.colorpagAprende {
+    background-color: $seccion-color;
+}
+
+
+@media screen and (max-width:576px) {
+    .logoAprender img {
+        width: 70%;
+    }
+}

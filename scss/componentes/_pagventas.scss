@@ -1,0 +1,84 @@
+.font-A {
+   h2 {
+      text-transform: capitalize;
+      font-family: nth($excel-fonts, 2);
+   }
+}
+
+main {
+   margin: 0;
+}
+
+.pagventa {
+   background-color: rgb(193, 228, 208);
+   margin: 0;
+
+   p {
+      text-transform: capitalize;
+      font-family: $ft-family;
+      font-size: $font-sec;
+      padding-top: 1rem;
+   }
+}
+
+.pagventa-2 {
+   margin-top: 2rem;
+   background-color: rgba(219, 61, 61, 0.836);
+
+   p {
+      text-transform: capitalize;
+      font-family: $ft-family;
+      font-size: $font-sec;
+      padding-top: 1rem;
+      font-weight: bold;
+   }
+}
+
+venta-body {
+   background-color: $seccion-color;
+}
+
+.parte3 {
+   padding: 2rem;
+   background-color: rgba(250, 1, 1, 0.836);
+   margin-bottom: 2%;
+
+
+   p {
+      text-transform: capitalize;
+      font-family: $ft-family;
+      font-size: $font-sec;
+      padding-top: 1rem;
+      font-weight: bold;
+      color: rgb(223, 203, 203);
+   }
+}
+
+.cajaventa {
+   width: auto;
+   background-color: rgb(160, 153, 153);
+   opacity: 0.9;
+   z-index: 1;
+
+   h5 {
+      color: rgb(255, 253, 252);
+   text-transform: capitalize;
+
+   }
+
+
+      p {
+        color :rgb(54, 53, 52);
+        text-transform: capitalize;
+       
+      }
+
+   
+}
+
+@media screen and (max-width: 576px) {
+   .cajaventa {
+     opacity: 0.8;
+   }
+  
+ }

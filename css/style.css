@@ -1,0 +1,445 @@
+.sec-principal {
+  text-align: start;
+  font-size: 18px;
+  padding: 2px;
+  margin: 2rem;
+  background-color: rgb(185, 214, 196);
+}
+.sec-principal P {
+  font-family: "Courier New";
+}
+
+.botonVenta {
+  display: inline-block;
+  padding: 3px;
+  background-color: #f70000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+.botonVenta .botonVenta:hover {
+  background-color: #ff0404;
+}
+
+.navbar {
+  background-color: #138539;
+  font-size: 20px;
+}
+
+.eslogan {
+  text-transform: capitalize;
+  padding-top: 3rem;
+}
+.eslogan h1 {
+  font-size: 3rem;
+  font-family: "Courier New";
+  font-weight: bold;
+  color: rgb(34, 65, 46);
+}
+.eslogan h2 {
+  font-size: 2rem;
+  color: #382525;
+}
+
+@media screen and (max-width: 375px) {
+  img {
+    text-align: start;
+  }
+  img h1 {
+    text-align: center;
+  }
+  img h1 h2 {
+    text-align: center;
+  }
+}
+.redeSociales,
+.contacto,
+.paginaVentas,
+.subc {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  text-align: start;
+  font-family: sans-serif;
+  background-color: #138539;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.subc form {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  margin: 5px;
+}
+form button button:hover {
+  background-color: #df1e17;
+  cursor: pointer;
+}
+
+input[type=text][placeholder] {
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .redeSociales,
+  .contacto,
+  .paginaVentas {
+    align-items: center;
+  }
+}
+a {
+  text-decoration: none;
+  color: rgb(34, 65, 46);
+}
+
+.banner {
+  background-color: #138539;
+}
+
+@media screen and (max-width: 508px) {
+  .banner, img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.indiceDepreguntas {
+  padding-bottom: 2rem;
+}
+.indiceDepreguntas h3 {
+  font-size: 20px 18px;
+  font-family: "Times New Roman";
+  padding-top: 2px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.respuestasBlog h3 {
+  font-size: 20px 18px;
+  font-family: "Courier New";
+  text-align: center;
+}
+.respuestasBlog p {
+  text-align: start;
+  font-size: 18px;
+  margin: 2px;
+  font-family: "Courier New";
+}
+
+.botVenta {
+  margin: 50px auto;
+  max-width: 600px;
+  background-color: none;
+}
+.botVenta a {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1rem;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botVenta .botonVenta {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5rem;
+  cursor: pointer;
+  padding: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5rem;
+  background-color: #C53A3A;
+  border: 2px solid #5f1a1a;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.esloganCursos {
+  text-transform: capitalize;
+  padding-top: 3rem;
+}
+.esloganCursos h1 {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: rgb(34, 65, 46);
+  text-align: center;
+}
+.esloganCursos h1 h2 {
+  font-size: 2rem;
+  color: #382525;
+  text-align: center;
+}
+
+.contenidocursos h3 {
+  font-size: 24px;
+  font-family: "Times New Roman";
+  padding-left: 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.contenidocursos ul {
+  margin: 2px;
+  text-transform: capitalize;
+}
+.contenidocursos li {
+  text-transform: capitalize;
+  text-align: start;
+  font-size: 20px 18px;
+  font-family: "Courier New";
+}
+.contenidocursos h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  padding-left: 2rem;
+  font-family: 2rem;
+}
+
+.logoCursos {
+  padding-left: 2px;
+}
+.logoCursos img {
+  width: 500px;
+}
+
+.imgCursos {
+  padding-top: 2rem;
+}
+.imgCursos img {
+  width: 525px;
+}
+
+@media screen and (max-width: 576px) {
+  .logoCursos img,
+  .imgCursos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.esloganA {
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+.esloganA h1 {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: rgb(34, 65, 46);
+  text-align: center;
+}
+.esloganA h1 h2 {
+  font-size: 2rem;
+  color: #382525;
+  text-align: center;
+}
+
+.logoAprender img {
+  width: 30%;
+}
+
+.colorpagAprende {
+  background-color: rgb(185, 214, 196);
+}
+
+@media screen and (max-width: 576px) {
+  .logoAprender img {
+    width: 70%;
+  }
+}
+.animacion-pag-ventas {
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.animacion-pag-ventas h2 {
+  color: #fff;
+  font-size: 2.5em;
+  padding: 0.3em;
+  margin: 0;
+  opacity: 0;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.animacion-pag-ventas h2:nth-child(1) {
+  animation-name: animacion-pag-1;
+  background-color: lightseagreen;
+}
+
+@keyframes animacion-pag-1 {
+  0% {
+    transform: translateY(200%);
+  }
+  33% {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  34% {
+    opacity: 0;
+  }
+}
+.animacion-pag-ventas h2:nth-child(2) {
+  animation-name: animacion-pag-2;
+  background-color: tomato;
+}
+
+@keyframes animacion-pag-2 {
+  33% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  66% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  67% {
+    opacity: 0;
+  }
+}
+.animacion-pag-ventas h2:nth-child(3) {
+  animation-name: animacion-pag-3;
+  background-color: cornflowerblue;
+}
+
+@keyframes animacion-pag-3 {
+  66% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  99% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+@media screen and (max-width: 576px) {
+  .animacion-pag-ventas {
+    font-size: 0.7rem;
+  }
+}
+.font-A h2 {
+  text-transform: capitalize;
+  font-family: "Helvetica";
+}
+
+main {
+  margin: 0;
+}
+
+.pagventa {
+  background-color: rgb(193, 228, 208);
+  margin: 0;
+}
+.pagventa p {
+  text-transform: capitalize;
+  font-family: "Courier New";
+  font-size: 18px;
+  padding-top: 1rem;
+}
+
+.pagventa-2 {
+  margin-top: 2rem;
+  background-color: rgba(219, 61, 61, 0.836);
+}
+.pagventa-2 p {
+  text-transform: capitalize;
+  font-family: "Courier New";
+  font-size: 18px;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+venta-body {
+  background-color: rgb(185, 214, 196);
+}
+
+.parte3 {
+  padding: 2rem;
+  background-color: rgba(250, 1, 1, 0.836);
+  margin-bottom: 2%;
+}
+.parte3 p {
+  text-transform: capitalize;
+  font-family: "Courier New";
+  font-size: 18px;
+  padding-top: 1rem;
+  font-weight: bold;
+  color: rgb(223, 203, 203);
+}
+
+.cajaventa {
+  width: auto;
+  background-color: rgb(160, 153, 153);
+  opacity: 0.9;
+  z-index: 1;
+}
+.cajaventa h5 {
+  color: rgb(255, 253, 252);
+  text-transform: capitalize;
+}
+.cajaventa p {
+  color: rgb(54, 53, 52);
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 576px) {
+  .cajaventa {
+    opacity: 0.8;
+  }
+}
+.formAprende {
+  padding-top: 5rem;
+}
+
+.form {
+  margin: 1rem;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.labelForm {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

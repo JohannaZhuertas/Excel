@@ -1,0 +1,36 @@
+.eslogan {
+
+    text-transform: capitalize;
+    padding-top: 3rem;
+
+    h1 {
+        font-size: nth($font, 1);
+        font-family: nth($excel-fonts, 14);
+        font-weight: bold;
+        color: $color-principal;
+    }
+
+
+    h2 {
+        font-size: nth($font, 2);
+        color: $font-h2;
+ }
+}
+
+
+
+@media screen and (max-width:375px) {
+
+    img {
+        text-align: start;
+
+        h1 {
+            text-align: center;
+
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+}
