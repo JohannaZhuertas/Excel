@@ -6,7 +6,8 @@
 
 @media screen and (max-width:508px) {
 
-    .banner,img {
+    .banner,
+    img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -41,7 +42,8 @@
     p {
         text-align: start;
         font-size: $font-sec;
-       margin:2px;
-    font-family: nth($excel-fonts, 14);
-}
-}
+        margin: 2px;
+        font-family: nth($excel-fonts, 14);
+        padding-bottom: 1rem;
+    }
+     }

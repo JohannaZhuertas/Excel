@@ -106,7 +106,8 @@ a {
 }
 
 @media screen and (max-width: 508px) {
-  .banner, img {
+  .banner,
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -133,6 +134,7 @@ a {
   font-size: 18px;
   margin: 2px;
   font-family: "Courier New";
+  padding-bottom: 1rem;
 }
 
 .botVenta {
