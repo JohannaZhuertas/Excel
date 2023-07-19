@@ -3,7 +3,7 @@
     padding-bottom: 1rem;
 
 
-    h1 {
+    h2 {
         font-size: 3rem;
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
@@ -11,13 +11,19 @@
         text-align: center;
 
 
-        h2 {
+        h3{
             font-size: 2rem;
             color: #382525;
             text-align: center;
         }
     }
 
+}
+
+.tituloPrincipalA{
+    margin: 1rem;
+    font-family: nth($excel-fonts,7 );
+    font-size:nth($font, 3);
 }
 
 .logoAprender {

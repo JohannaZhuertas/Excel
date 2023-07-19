@@ -4,7 +4,7 @@
 }
 
 
-@media screen and (max-width:508px) {
+@media screen and (max-width:576px) {
 
     .banner,
     img {
@@ -14,6 +14,17 @@
 
     }
 }
+
+
+.blogContenido {
+    font-size: nth($font, 4);
+        font-family: nth($excel-fonts, 9);
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: $font-h2;
+}
+
 
 
 .indiceDepreguntas {
@@ -44,6 +55,6 @@
         font-size: $font-sec;
         margin: 2px;
         font-family: nth($excel-fonts, 14);
-        padding-bottom: 1rem;
+        padding: 1rem;
     }
      }

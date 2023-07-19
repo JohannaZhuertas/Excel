@@ -2,11 +2,32 @@
   text-align: start;
   font-size: 18px;
   padding: 2px;
-  margin: 2rem;
+  margin: 8px;
   background-color: rgb(185, 214, 196);
 }
 .sec-principal P {
   font-family: "Courier New";
+}
+
+.tituloPrincipal {
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.eslogan {
+  text-transform: capitalize;
+}
+.eslogan h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: rgb(34, 65, 46);
+  text-align: center;
+}
+.eslogan h3 {
+  font-size: 20px;
+  color: #382525;
+  text-align: center;
 }
 
 .botonVenta {
@@ -16,10 +37,15 @@
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
-  transition: 0.3s ease;
+  border: 1px solid black;
+  width: 50%;
 }
 .botonVenta .botonVenta:hover {
-  background-color: #ff0404;
+  background-color: #f70000;
+}
+
+.estiloBoton {
+  padding: 2rem;
 }
 
 .navbar {
@@ -42,7 +68,7 @@
   color: #382525;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
   img {
     text-align: start;
   }
@@ -89,7 +115,7 @@ input[type=text][placeholder] {
   text-align: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
   .redeSociales,
   .contacto,
   .paginaVentas {
@@ -105,7 +131,7 @@ a {
   background-color: #138539;
 }
 
-@media screen and (max-width: 508px) {
+@media screen and (max-width: 576px) {
   .banner,
   img {
     width: 100%;
@@ -113,6 +139,15 @@ a {
     object-fit: cover;
   }
 }
+.blogContenido {
+  font-size: 20px 18px;
+  font-family: "Times New Roman";
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #382525;
+}
+
 .indiceDepreguntas {
   padding-bottom: 2rem;
 }
@@ -134,7 +169,7 @@ a {
   font-size: 18px;
   margin: 2px;
   font-family: "Courier New";
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 .botVenta {
@@ -169,17 +204,26 @@ a {
   text-transform: capitalize;
   padding-top: 3rem;
 }
-.esloganCursos h1 {
+.esloganCursos h2 {
   font-size: 3rem;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   color: rgb(34, 65, 46);
   text-align: center;
 }
-.esloganCursos h1 h2 {
+.esloganCursos h2 h3 {
   font-size: 2rem;
   color: #382525;
   text-align: center;
+}
+
+.cursosContenido {
+  padding-left: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  color: rgb(165, 160, 160);
+  font-family: "Trebuchet MS";
 }
 
 .contenidocursos h3 {
@@ -190,7 +234,7 @@ a {
   font-weight: bold;
 }
 .contenidocursos ul {
-  margin: 2px;
+  margin: 10px;
   text-transform: capitalize;
 }
 .contenidocursos li {
@@ -232,17 +276,23 @@ a {
   text-transform: capitalize;
   padding-bottom: 1rem;
 }
-.esloganA h1 {
+.esloganA h2 {
   font-size: 3rem;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   color: rgb(34, 65, 46);
   text-align: center;
 }
-.esloganA h1 h2 {
+.esloganA h2 h3 {
   font-size: 2rem;
   color: #382525;
   text-align: center;
+}
+
+.tituloPrincipalA {
+  margin: 1rem;
+  font-family: "Trebuchet MS";
+  font-size: 24px;
 }
 
 .logoAprender img {
@@ -340,23 +390,21 @@ a {
   font-family: "Helvetica";
 }
 
-main {
-  margin: 0;
-}
-
 .pagventa {
   background-color: rgb(193, 228, 208);
-  margin: 0;
+  padding: 24px;
+  margin-bottom: 2rem;
 }
 .pagventa p {
   text-transform: capitalize;
   font-family: "Courier New";
   font-size: 18px;
   padding-top: 1rem;
+  margin: 0;
 }
 
 .pagventa-2 {
-  margin-top: 2rem;
+  padding: 24px;
   background-color: rgba(219, 61, 61, 0.836);
 }
 .pagventa-2 p {
@@ -372,9 +420,9 @@ venta-body {
 }
 
 .parte3 {
-  padding: 2rem;
-  background-color: rgba(250, 1, 1, 0.836);
-  margin-bottom: 2%;
+  padding: 24px;
+  background-color: #138539;
+  margin-bottom: 1rem;
 }
 .parte3 p {
   text-transform: capitalize;
@@ -398,6 +446,13 @@ venta-body {
 .cajaventa p {
   color: rgb(54, 53, 52);
   text-transform: capitalize;
+}
+
+.tituloPrincipalVentas {
+  color: rgb(182, 40, 40);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Courier New";
 }
 
 @media screen and (max-width: 576px) {
